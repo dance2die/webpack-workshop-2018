@@ -6,6 +6,9 @@ import makeImage from "./image";
 import "./footer.css";
 import "./button.css";
 import imageUrl from "./webpack-logo.jpg";
+import Foo from "./foo.ts";
+
+console.log(Foo);
 
 const image = makeImage(imageUrl);
 
